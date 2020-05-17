@@ -5,5 +5,5 @@ Installation (iOS & OSX)
 Add this to your [podfile](https://guides.cocoapods.org/using/getting-started.html) and run `pod install` to install:
 
 ```ruby
-pod 'objcallprinter', :git => 7https://github.com/ezerway/ObjCAllPrinter.git'
+pod 'objcallprinter', :git => 'https://github.com/ezerway/ObjCAllPrinter.git'
 ```
