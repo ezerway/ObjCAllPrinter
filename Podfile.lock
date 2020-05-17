@@ -1,0 +1,26 @@
+PODS:
+  - SMCloudServices (1.5.1):
+    - StarIO_Extension
+  - StarIO (2.7.0)
+  - StarIO_Extension (1.14.0):
+    - StarIO
+
+DEPENDENCIES:
+  - SMCloudServices (~> 1.5.1)
+  - StarIO (~> 2.7)
+  - StarIO_Extension (~> 1.14)
+
+SPEC REPOS:
+  trunk:
+    - SMCloudServices
+    - StarIO
+    - StarIO_Extension
+
+SPEC CHECKSUMS:
+  SMCloudServices: d31c07b85289d68db7d0ada0b91fb5a1c078e694
+  StarIO: 2d29cff48971173f40191dc9b3e23e5a6863b9da
+  StarIO_Extension: 99eb938cd82cea249f298fe5a35074e9aaedf6d7
+
+PODFILE CHECKSUM: ab758135a685aabaae0a122d3b114d05c44c78b3
+
+COCOAPODS: 1.9.1

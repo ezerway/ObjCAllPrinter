@@ -9,6 +9,35 @@
 /* Begin PBXBuildFile section */
 		C4A36FBA2467EE91004E6F60 /* objcallprinter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A36FB92467EE91004E6F60 /* objcallprinter.m */; };
 		C4A36FBB2467EE91004E6F60 /* objcallprinter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C4A36FB82467EE91004E6F60 /* objcallprinter.h */; };
+		C4A3701C246D535B004E6F60 /* IRNAllPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A36FFD246D535B004E6F60 /* IRNAllPrinter.m */; };
+		C4A370AC246D6B40004E6F60 /* Communication.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37075246D6B40004E6F60 /* Communication.m */; };
+		C4A370AD246D6B40004E6F60 /* CommunicationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37077246D6B40004E6F60 /* CommunicationResult.m */; };
+		C4A370AE246D6B40004E6F60 /* AllReceiptsFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3707A246D6B40004E6F60 /* AllReceiptsFunctions.m */; };
+		C4A370AF246D6B40004E6F60 /* ApiFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3707C246D6B40004E6F60 /* ApiFunctions.m */; };
+		C4A370B0246D6B40004E6F60 /* CashDrawerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3707E246D6B40004E6F60 /* CashDrawerFunctions.m */; };
+		C4A370B1246D6B40004E6F60 /* CombinationFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37080246D6B40004E6F60 /* CombinationFunctions.m */; };
+		C4A370B2246D6B40004E6F60 /* DisplayFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37082246D6B40004E6F60 /* DisplayFunctions.m */; };
+		C4A370B3246D6B40004E6F60 /* MelodySpeakerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37084246D6B40004E6F60 /* MelodySpeakerFunctions.m */; };
+		C4A370B4246D6B40004E6F60 /* PrinterFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37086246D6B40004E6F60 /* PrinterFunctions.m */; };
+		C4A370B5246D6B40004E6F60 /* GlobalQueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37088246D6B40004E6F60 /* GlobalQueueManager.m */; };
+		C4A370B6246D6B40004E6F60 /* EnglishReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3708B246D6B40004E6F60 /* EnglishReceiptsImpl.m */; };
+		C4A370B7246D6B40004E6F60 /* FrenchReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3708D246D6B40004E6F60 /* FrenchReceiptsImpl.m */; };
+		C4A370B8246D6B40004E6F60 /* GermanReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3708F246D6B40004E6F60 /* GermanReceiptsImpl.m */; };
+		C4A370B9246D6B40004E6F60 /* ILocalizeReceipts.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37091246D6B40004E6F60 /* ILocalizeReceipts.m */; };
+		C4A370BA246D6B40004E6F60 /* JapaneseReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37093246D6B40004E6F60 /* JapaneseReceiptsImpl.m */; };
+		C4A370BB246D6B40004E6F60 /* PortugueseReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37095246D6B40004E6F60 /* PortugueseReceiptsImpl.m */; };
+		C4A370BC246D6B40004E6F60 /* RussianReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37097246D6B40004E6F60 /* RussianReceiptsImpl.m */; };
+		C4A370BD246D6B40004E6F60 /* SimplifiedChineseReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A37099246D6B40004E6F60 /* SimplifiedChineseReceiptsImpl.m */; };
+		C4A370BE246D6B40004E6F60 /* SpanishReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3709B246D6B40004E6F60 /* SpanishReceiptsImpl.m */; };
+		C4A370BF246D6B40004E6F60 /* TraditionalChineseReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3709D246D6B40004E6F60 /* TraditionalChineseReceiptsImpl.m */; };
+		C4A370C0246D6B40004E6F60 /* Utf8MultiLanguageReceiptsImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A3709F246D6B40004E6F60 /* Utf8MultiLanguageReceiptsImpl.m */; };
+		C4A370C1246D6B40004E6F60 /* ModelCapability.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A370A1246D6B40004E6F60 /* ModelCapability.m */; };
+		C4A370C2246D6B40004E6F60 /* PrinterInfo+Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A370A3246D6B40004E6F60 /* PrinterInfo+Builder.m */; };
+		C4A370C3246D6B40004E6F60 /* PrinterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A370A5246D6B40004E6F60 /* PrinterInfo.m */; };
+		C4A370C4246D6B40004E6F60 /* PrinterSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A370A7246D6B40004E6F60 /* PrinterSetting.m */; };
+		C4A370C5246D6B40004E6F60 /* ProductPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A370A9246D6B40004E6F60 /* ProductPresenter.m */; };
+		C4A370C6246D6B40004E6F60 /* StarPrnt.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A370AB246D6B40004E6F60 /* StarPrnt.m */; };
+		F45416F6FDF1AF29452A061E /* libPods-objcallprinter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E976A21D91AA0664FF2AA5E8 /* libPods-objcallprinter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +54,68 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6BC0104758BE85C168320F16 /* Pods-objcallprinter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objcallprinter.release.xcconfig"; path = "Target Support Files/Pods-objcallprinter/Pods-objcallprinter.release.xcconfig"; sourceTree = "<group>"; };
+		758E804D6C5C62E0803C3A84 /* Pods-objcallprinter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objcallprinter.debug.xcconfig"; path = "Target Support Files/Pods-objcallprinter/Pods-objcallprinter.debug.xcconfig"; sourceTree = "<group>"; };
 		C4A36FB52467EE91004E6F60 /* libobjcallprinter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libobjcallprinter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A36FB82467EE91004E6F60 /* objcallprinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objcallprinter.h; sourceTree = "<group>"; };
 		C4A36FB92467EE91004E6F60 /* objcallprinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objcallprinter.m; sourceTree = "<group>"; };
+		C4A36FFD246D535B004E6F60 /* IRNAllPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRNAllPrinter.m; sourceTree = "<group>"; };
+		C4A36FFE246D535B004E6F60 /* IRNAllPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRNAllPrinter.h; sourceTree = "<group>"; };
+		C4A37074246D6B40004E6F60 /* Communication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Communication.h; sourceTree = "<group>"; };
+		C4A37075246D6B40004E6F60 /* Communication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Communication.m; sourceTree = "<group>"; };
+		C4A37076246D6B40004E6F60 /* CommunicationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationResult.h; sourceTree = "<group>"; };
+		C4A37077246D6B40004E6F60 /* CommunicationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationResult.m; sourceTree = "<group>"; };
+		C4A37079246D6B40004E6F60 /* AllReceiptsFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllReceiptsFunctions.h; sourceTree = "<group>"; };
+		C4A3707A246D6B40004E6F60 /* AllReceiptsFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllReceiptsFunctions.m; sourceTree = "<group>"; };
+		C4A3707B246D6B40004E6F60 /* ApiFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiFunctions.h; sourceTree = "<group>"; };
+		C4A3707C246D6B40004E6F60 /* ApiFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiFunctions.m; sourceTree = "<group>"; };
+		C4A3707D246D6B40004E6F60 /* CashDrawerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashDrawerFunctions.h; sourceTree = "<group>"; };
+		C4A3707E246D6B40004E6F60 /* CashDrawerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashDrawerFunctions.m; sourceTree = "<group>"; };
+		C4A3707F246D6B40004E6F60 /* CombinationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinationFunctions.h; sourceTree = "<group>"; };
+		C4A37080246D6B40004E6F60 /* CombinationFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinationFunctions.m; sourceTree = "<group>"; };
+		C4A37081246D6B40004E6F60 /* DisplayFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayFunctions.h; sourceTree = "<group>"; };
+		C4A37082246D6B40004E6F60 /* DisplayFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayFunctions.m; sourceTree = "<group>"; };
+		C4A37083246D6B40004E6F60 /* MelodySpeakerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MelodySpeakerFunctions.h; sourceTree = "<group>"; };
+		C4A37084246D6B40004E6F60 /* MelodySpeakerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MelodySpeakerFunctions.m; sourceTree = "<group>"; };
+		C4A37085246D6B40004E6F60 /* PrinterFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterFunctions.h; sourceTree = "<group>"; };
+		C4A37086246D6B40004E6F60 /* PrinterFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterFunctions.m; sourceTree = "<group>"; };
+		C4A37087246D6B40004E6F60 /* GlobalQueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalQueueManager.h; sourceTree = "<group>"; };
+		C4A37088246D6B40004E6F60 /* GlobalQueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalQueueManager.m; sourceTree = "<group>"; };
+		C4A3708A246D6B40004E6F60 /* EnglishReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnglishReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A3708B246D6B40004E6F60 /* EnglishReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnglishReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A3708C246D6B40004E6F60 /* FrenchReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrenchReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A3708D246D6B40004E6F60 /* FrenchReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrenchReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A3708E246D6B40004E6F60 /* GermanReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GermanReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A3708F246D6B40004E6F60 /* GermanReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GermanReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A37090246D6B40004E6F60 /* ILocalizeReceipts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILocalizeReceipts.h; sourceTree = "<group>"; };
+		C4A37091246D6B40004E6F60 /* ILocalizeReceipts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILocalizeReceipts.m; sourceTree = "<group>"; };
+		C4A37092246D6B40004E6F60 /* JapaneseReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapaneseReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A37093246D6B40004E6F60 /* JapaneseReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapaneseReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A37094246D6B40004E6F60 /* PortugueseReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortugueseReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A37095246D6B40004E6F60 /* PortugueseReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortugueseReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A37096246D6B40004E6F60 /* RussianReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussianReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A37097246D6B40004E6F60 /* RussianReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussianReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A37098246D6B40004E6F60 /* SimplifiedChineseReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplifiedChineseReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A37099246D6B40004E6F60 /* SimplifiedChineseReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplifiedChineseReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A3709A246D6B40004E6F60 /* SpanishReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpanishReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A3709B246D6B40004E6F60 /* SpanishReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpanishReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A3709C246D6B40004E6F60 /* TraditionalChineseReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraditionalChineseReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A3709D246D6B40004E6F60 /* TraditionalChineseReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraditionalChineseReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A3709E246D6B40004E6F60 /* Utf8MultiLanguageReceiptsImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utf8MultiLanguageReceiptsImpl.h; sourceTree = "<group>"; };
+		C4A3709F246D6B40004E6F60 /* Utf8MultiLanguageReceiptsImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utf8MultiLanguageReceiptsImpl.m; sourceTree = "<group>"; };
+		C4A370A0246D6B40004E6F60 /* ModelCapability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelCapability.h; sourceTree = "<group>"; };
+		C4A370A1246D6B40004E6F60 /* ModelCapability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelCapability.m; sourceTree = "<group>"; };
+		C4A370A2246D6B40004E6F60 /* PrinterInfo+Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PrinterInfo+Builder.h"; sourceTree = "<group>"; };
+		C4A370A3246D6B40004E6F60 /* PrinterInfo+Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PrinterInfo+Builder.m"; sourceTree = "<group>"; };
+		C4A370A4246D6B40004E6F60 /* PrinterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterInfo.h; sourceTree = "<group>"; };
+		C4A370A5246D6B40004E6F60 /* PrinterInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterInfo.m; sourceTree = "<group>"; };
+		C4A370A6246D6B40004E6F60 /* PrinterSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterSetting.h; sourceTree = "<group>"; };
+		C4A370A7246D6B40004E6F60 /* PrinterSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterSetting.m; sourceTree = "<group>"; };
+		C4A370A8246D6B40004E6F60 /* ProductPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductPresenter.h; sourceTree = "<group>"; };
+		C4A370A9246D6B40004E6F60 /* ProductPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductPresenter.m; sourceTree = "<group>"; };
+		C4A370AA246D6B40004E6F60 /* StarPrnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarPrnt.h; sourceTree = "<group>"; };
+		C4A370AB246D6B40004E6F60 /* StarPrnt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarPrnt.m; sourceTree = "<group>"; };
+		E976A21D91AA0664FF2AA5E8 /* libPods-objcallprinter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-objcallprinter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +123,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45416F6FDF1AF29452A061E /* libPods-objcallprinter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58650C48889CAC36757B5D7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758E804D6C5C62E0803C3A84 /* Pods-objcallprinter.debug.xcconfig */,
+				6BC0104758BE85C168320F16 /* Pods-objcallprinter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C4A36FAC2467EE91004E6F60 = {
 			isa = PBXGroup;
 			children = (
 				C4A36FB72467EE91004E6F60 /* objcallprinter */,
 				C4A36FB62467EE91004E6F60 /* Products */,
+				58650C48889CAC36757B5D7D /* Pods */,
+				F249FAF4A82FAC784359A29F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +160,106 @@
 		C4A36FB72467EE91004E6F60 /* objcallprinter */ = {
 			isa = PBXGroup;
 			children = (
+				C4A37072246D6B40004E6F60 /* StartPrnt */,
+				C4A36FFE246D535B004E6F60 /* IRNAllPrinter.h */,
+				C4A36FFD246D535B004E6F60 /* IRNAllPrinter.m */,
 				C4A36FB82467EE91004E6F60 /* objcallprinter.h */,
 				C4A36FB92467EE91004E6F60 /* objcallprinter.m */,
 			);
 			path = objcallprinter;
+			sourceTree = "<group>";
+		};
+		C4A37072246D6B40004E6F60 /* StartPrnt */ = {
+			isa = PBXGroup;
+			children = (
+				C4A37073246D6B40004E6F60 /* Communications */,
+				C4A37078246D6B40004E6F60 /* Functions */,
+				C4A37087246D6B40004E6F60 /* GlobalQueueManager.h */,
+				C4A37088246D6B40004E6F60 /* GlobalQueueManager.m */,
+				C4A37089246D6B40004E6F60 /* LocalizeReceipts */,
+				C4A370A0246D6B40004E6F60 /* ModelCapability.h */,
+				C4A370A1246D6B40004E6F60 /* ModelCapability.m */,
+				C4A370A2246D6B40004E6F60 /* PrinterInfo+Builder.h */,
+				C4A370A3246D6B40004E6F60 /* PrinterInfo+Builder.m */,
+				C4A370A4246D6B40004E6F60 /* PrinterInfo.h */,
+				C4A370A5246D6B40004E6F60 /* PrinterInfo.m */,
+				C4A370A6246D6B40004E6F60 /* PrinterSetting.h */,
+				C4A370A7246D6B40004E6F60 /* PrinterSetting.m */,
+				C4A370A8246D6B40004E6F60 /* ProductPresenter.h */,
+				C4A370A9246D6B40004E6F60 /* ProductPresenter.m */,
+				C4A370AA246D6B40004E6F60 /* StarPrnt.h */,
+				C4A370AB246D6B40004E6F60 /* StarPrnt.m */,
+			);
+			path = StartPrnt;
+			sourceTree = "<group>";
+		};
+		C4A37073246D6B40004E6F60 /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+				C4A37074246D6B40004E6F60 /* Communication.h */,
+				C4A37075246D6B40004E6F60 /* Communication.m */,
+				C4A37076246D6B40004E6F60 /* CommunicationResult.h */,
+				C4A37077246D6B40004E6F60 /* CommunicationResult.m */,
+			);
+			path = Communications;
+			sourceTree = "<group>";
+		};
+		C4A37078246D6B40004E6F60 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				C4A37079246D6B40004E6F60 /* AllReceiptsFunctions.h */,
+				C4A3707A246D6B40004E6F60 /* AllReceiptsFunctions.m */,
+				C4A3707B246D6B40004E6F60 /* ApiFunctions.h */,
+				C4A3707C246D6B40004E6F60 /* ApiFunctions.m */,
+				C4A3707D246D6B40004E6F60 /* CashDrawerFunctions.h */,
+				C4A3707E246D6B40004E6F60 /* CashDrawerFunctions.m */,
+				C4A3707F246D6B40004E6F60 /* CombinationFunctions.h */,
+				C4A37080246D6B40004E6F60 /* CombinationFunctions.m */,
+				C4A37081246D6B40004E6F60 /* DisplayFunctions.h */,
+				C4A37082246D6B40004E6F60 /* DisplayFunctions.m */,
+				C4A37083246D6B40004E6F60 /* MelodySpeakerFunctions.h */,
+				C4A37084246D6B40004E6F60 /* MelodySpeakerFunctions.m */,
+				C4A37085246D6B40004E6F60 /* PrinterFunctions.h */,
+				C4A37086246D6B40004E6F60 /* PrinterFunctions.m */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		C4A37089246D6B40004E6F60 /* LocalizeReceipts */ = {
+			isa = PBXGroup;
+			children = (
+				C4A3708A246D6B40004E6F60 /* EnglishReceiptsImpl.h */,
+				C4A3708B246D6B40004E6F60 /* EnglishReceiptsImpl.m */,
+				C4A3708C246D6B40004E6F60 /* FrenchReceiptsImpl.h */,
+				C4A3708D246D6B40004E6F60 /* FrenchReceiptsImpl.m */,
+				C4A3708E246D6B40004E6F60 /* GermanReceiptsImpl.h */,
+				C4A3708F246D6B40004E6F60 /* GermanReceiptsImpl.m */,
+				C4A37090246D6B40004E6F60 /* ILocalizeReceipts.h */,
+				C4A37091246D6B40004E6F60 /* ILocalizeReceipts.m */,
+				C4A37092246D6B40004E6F60 /* JapaneseReceiptsImpl.h */,
+				C4A37093246D6B40004E6F60 /* JapaneseReceiptsImpl.m */,
+				C4A37094246D6B40004E6F60 /* PortugueseReceiptsImpl.h */,
+				C4A37095246D6B40004E6F60 /* PortugueseReceiptsImpl.m */,
+				C4A37096246D6B40004E6F60 /* RussianReceiptsImpl.h */,
+				C4A37097246D6B40004E6F60 /* RussianReceiptsImpl.m */,
+				C4A37098246D6B40004E6F60 /* SimplifiedChineseReceiptsImpl.h */,
+				C4A37099246D6B40004E6F60 /* SimplifiedChineseReceiptsImpl.m */,
+				C4A3709A246D6B40004E6F60 /* SpanishReceiptsImpl.h */,
+				C4A3709B246D6B40004E6F60 /* SpanishReceiptsImpl.m */,
+				C4A3709C246D6B40004E6F60 /* TraditionalChineseReceiptsImpl.h */,
+				C4A3709D246D6B40004E6F60 /* TraditionalChineseReceiptsImpl.m */,
+				C4A3709E246D6B40004E6F60 /* Utf8MultiLanguageReceiptsImpl.h */,
+				C4A3709F246D6B40004E6F60 /* Utf8MultiLanguageReceiptsImpl.m */,
+			);
+			path = LocalizeReceipts;
+			sourceTree = "<group>";
+		};
+		F249FAF4A82FAC784359A29F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E976A21D91AA0664FF2AA5E8 /* libPods-objcallprinter.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4A36FBE2467EE91004E6F60 /* Build configuration list for PBXNativeTarget "objcallprinter" */;
 			buildPhases = (
+				C779B1D4735854C691CDFEAB /* [CP] Check Pods Manifest.lock */,
 				C4A36FB12467EE91004E6F60 /* Sources */,
 				C4A36FB22467EE91004E6F60 /* Frameworks */,
 				C4A36FB32467EE91004E6F60 /* CopyFiles */,
@@ -118,12 +315,65 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C779B1D4735854C691CDFEAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-objcallprinter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4A36FB12467EE91004E6F60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A370C4246D6B40004E6F60 /* PrinterSetting.m in Sources */,
+				C4A3701C246D535B004E6F60 /* IRNAllPrinter.m in Sources */,
+				C4A370AD246D6B40004E6F60 /* CommunicationResult.m in Sources */,
+				C4A370BA246D6B40004E6F60 /* JapaneseReceiptsImpl.m in Sources */,
+				C4A370C0246D6B40004E6F60 /* Utf8MultiLanguageReceiptsImpl.m in Sources */,
+				C4A370BC246D6B40004E6F60 /* RussianReceiptsImpl.m in Sources */,
+				C4A370BE246D6B40004E6F60 /* SpanishReceiptsImpl.m in Sources */,
+				C4A370B0246D6B40004E6F60 /* CashDrawerFunctions.m in Sources */,
+				C4A370C6246D6B40004E6F60 /* StarPrnt.m in Sources */,
+				C4A370C1246D6B40004E6F60 /* ModelCapability.m in Sources */,
+				C4A370C3246D6B40004E6F60 /* PrinterInfo.m in Sources */,
 				C4A36FBA2467EE91004E6F60 /* objcallprinter.m in Sources */,
+				C4A370B5246D6B40004E6F60 /* GlobalQueueManager.m in Sources */,
+				C4A370C2246D6B40004E6F60 /* PrinterInfo+Builder.m in Sources */,
+				C4A370AE246D6B40004E6F60 /* AllReceiptsFunctions.m in Sources */,
+				C4A370BD246D6B40004E6F60 /* SimplifiedChineseReceiptsImpl.m in Sources */,
+				C4A370B8246D6B40004E6F60 /* GermanReceiptsImpl.m in Sources */,
+				C4A370B7246D6B40004E6F60 /* FrenchReceiptsImpl.m in Sources */,
+				C4A370B4246D6B40004E6F60 /* PrinterFunctions.m in Sources */,
+				C4A370B9246D6B40004E6F60 /* ILocalizeReceipts.m in Sources */,
+				C4A370B3246D6B40004E6F60 /* MelodySpeakerFunctions.m in Sources */,
+				C4A370B1246D6B40004E6F60 /* CombinationFunctions.m in Sources */,
+				C4A370B6246D6B40004E6F60 /* EnglishReceiptsImpl.m in Sources */,
+				C4A370C5246D6B40004E6F60 /* ProductPresenter.m in Sources */,
+				C4A370AF246D6B40004E6F60 /* ApiFunctions.m in Sources */,
+				C4A370BF246D6B40004E6F60 /* TraditionalChineseReceiptsImpl.m in Sources */,
+				C4A370BB246D6B40004E6F60 /* PortugueseReceiptsImpl.m in Sources */,
+				C4A370B2246D6B40004E6F60 /* DisplayFunctions.m in Sources */,
+				C4A370AC246D6B40004E6F60 /* Communication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -192,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -242,7 +494,9 @@
 		};
 		C4A36FBF2467EE91004E6F60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758E804D6C5C62E0803C3A84 /* Pods-objcallprinter.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MH87T5SY83;
 				OTHER_LDFLAGS = "-ObjC";
@@ -254,7 +508,9 @@
 		};
 		C4A36FC02467EE91004E6F60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC0104758BE85C168320F16 /* Pods-objcallprinter.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MH87T5SY83;
 				OTHER_LDFLAGS = "-ObjC";
